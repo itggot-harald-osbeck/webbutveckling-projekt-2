@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color: peachpuff;
+}
+header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: red;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-style: none;
+}
+nav{
+    position: relative;
+    top: -20px;
+    height: 150px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+.knapp{
+    position: relative;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.knapp i.material-icons{
+    font-size: 3rem;
+    
+}
+.amenu{
+    position: relative;
+    background: white;
+    height: 100px;
+    width: 100%;
+    
+    display: none;
+    overflow:hidden;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.amenuactivate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background: white;
+}
+main{
+height: 80vh;
+width: 100vw;
+display: flex;
+align-items: center;
+flex-direction: column;
+top: -10px;
+}
+.countdown{
+width: 80%;
+height: 20%;
+background-color: white;
+font-size: 4rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: oblique
+}
+a{
+    text-decoration: none;
+}
