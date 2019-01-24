@@ -4,26 +4,34 @@ body{
 .wrapper{
     height: 100vh;
     width: 100vw;
-    background-color: peachpuff;
 }
 header{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: red;
-    height: 20vh;
+    height: 150px;
     justify-content: center;
     align-items: center;
     display: flex;
     font-style: none;
 }
+.headhead{
+    font-size: 1rem;
+    color:wheat;
+    border: 3px;
+    border-style: ridge;
+    margin: 10px;
+}
 nav{
-    position: relative;
-    top: -20px;
+    z-index: 1000;
+    position: absolute;
+    top: 130px;
     height: 150px;
     display: flex;
     align-items: center; 
     flex-direction: column;
 }
 .knapp{
+    border-radius: 10px 10px 0px 0px;
     position: relative;
     background-color: white;
     height: 50px;
@@ -43,19 +51,19 @@ nav{
     background: white;
     height: 100px;
     width: 100%;
-    
     display: none;
-    overflow:hidden;
-    align-items: center; 
-    justify-content: center;
+    overflow: hidden;
     flex-direction: column;
-    
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.3s;
+    /* bottom: 200px; */
 }
 .amenuactivate{
+    opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    bottom: 0;
 }
 .nav_link{
     display: flex;
@@ -66,21 +74,47 @@ nav{
     background: white;
 }
 main{
-height: 80vh;
-width: 100vw;
-display: flex;
-align-items: center;
-flex-direction: column;
-top: -10px;
+    background-color: peachpuff;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .countdown{
-width: 80%;
-height: 20%;
-background-color: white;
-font-size: 4rem;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-style: oblique
+    position: relative;
+    top: 40px;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
 }
+.countdownbox{
+
+}
+.merch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.box{
+    height: 200px;
+    width: 150px;
+    background-image: url(../../misc/wteeu_white_tee_front_1_mobile_size.png);
+    background-position: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5rem;
+}
+
 a{
     text-decoration: none;
 }
