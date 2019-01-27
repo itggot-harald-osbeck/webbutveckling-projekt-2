@@ -14,10 +14,10 @@ var x = setInterval(function() {
 
   // document.getElementById("demo").innerHTML = days + "<br>Dagar<br> " + hours + "<br>Timmar<br> "
   // + minutes + "<br>Minuter<br> " + seconds + "<br>Sekunder<br> ";
-  document.getElementById("dagar").innerHTML = days + "<br>Dagar<br> ";
-  document.getElementById("timmar").innerHTML = hours + "<br>Timmar<br> ";
-  document.getElementById("minuter").innerHTML = minutes + "<br>Minuter<br> ";
-  document.getElementById("sekunder").innerHTML = seconds + "<br>Sekunder<br> ";
+  document.getElementById("dagar").innerHTML = days; //"<br>Dagar<br> ";
+  document.getElementById("timmar").innerHTML = hours; //"<br>Timmar<br> ";
+  document.getElementById("minuter").innerHTML = minutes;// + "<br>Minuter<br> ";
+  document.getElementById("sekunder").innerHTML = seconds;// + "<br>Sekunder<br> ";
 
   if (distance < 0) {
     clearInterval(x);
@@ -25,8 +25,13 @@ var x = setInterval(function() {
   }
 }, 1000);
 
-function amenu(event){
+function amenu(){
   let thing = document.querySelector(".amenu")
   thing.classList.toggle("amenuactivate")
+
+}
+function menu2(){
+  let thing = document.querySelector(".menu22")
+  thing.classList.toggle("menu2activate")
 
 }
