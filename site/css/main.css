@@ -117,7 +117,7 @@ p{
 }
 .box{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1rem;
+    font-size: 0.7rem;
     height: 200px;
     width: 150px;
     background-image: url(../../misc/wteeu_white_tee_front_1_mobile_size.png);
@@ -154,7 +154,6 @@ a{
     font-size: 3rem;
     
 }
-
 .menu22{
     display: flex;
     align-items: center;
@@ -178,4 +177,92 @@ a{
     position: relative;
     top:50px;
     width: 70%;
+}
+.fullcountdownbox{
+    display: none;
+}
+.otext{
+    display: none;
+}
+@media only screen  and (min-width : 1224px) {
+.otext{
+    display: block;
+    border-bottom: solid;
+}
+#demo{
+    display: flex;  
+    justify-content: center;
+    align-content: center;
+}
+.fullcountdownbox{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-bottom: solid;
+    margin: 50px 0px 50px 0px;
+}
+p{
+    display: none;
+}
+.countdown{
+    color: wheat;
+    position: relative;
+    top: 40px;
+    width: 80%;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.countdownbox{
+    border: solid;
+    display: none;
+}
+.box{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    height: 500px;
+    width: 450px;
+    background-image: url(../../misc/wteeu_white_tee_front_1.png);
+
+}
+
+.buybox{
+    font-size: 2rem;
+    position: absolute;
+    bottom: -10px;
+    color: white;
+    background-color: red;
+
+}
+.headhead{
+    font-size: 1.5rem;
+}
+header{
+    height: 200px;
+}
+nav{
+    z-index: 1000;
+    position: absolute;
+    top: 180px;
+    height: 150px;
+    width: 250px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    font-size: 1rem;
+}
+.knapp2{
+    top: 300px;
+}
+.knapp2 i.material-icons{
+    font-size: 5rem;
+    
+}
+.menu22{
+    top: 450px;
+    font-size: 2rem;
+    margin-left: 0;
+    height: 200px;
+}
+
 }
