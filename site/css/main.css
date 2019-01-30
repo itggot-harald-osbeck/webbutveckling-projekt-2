@@ -73,7 +73,7 @@ nav{
     background: white;
 }
 main{
-    height: 500vh;
+    height: 700vh;
     background-image: url(../../misc/maxresdefault.jpg);
     width: 100%;
     display: flex;
@@ -136,6 +136,7 @@ p{
 }
 a{
     text-decoration: none;
+    color: black;
 }
 .knapp2{
     display: flex;
@@ -153,6 +154,7 @@ a{
     
 }
 .menu22{
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
