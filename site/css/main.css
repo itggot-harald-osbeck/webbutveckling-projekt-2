@@ -4,7 +4,7 @@ body{
 }
 .wrapper{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 header{
     background-color: red;
@@ -55,8 +55,6 @@ nav{
     overflow: hidden;
     flex-direction: column;
     border-radius: 0px 0px 10px 10px;
-    transition: 0.3s;
-    /* bottom: 200px; */
 }
 .amenuactivate{
     opacity: 1;
@@ -77,7 +75,7 @@ nav{
 main{
     height: 500vh;
     background-image: url(../../misc/maxresdefault.jpg);
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -185,84 +183,106 @@ a{
     display: none;
 }
 @media only screen  and (min-width : 1224px) {
-.otext{
-    display: block;
-    border-bottom: solid;
-}
-#demo{
-    display: flex;  
-    justify-content: center;
-    align-content: center;
-}
-.fullcountdownbox{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    border-bottom: solid;
-    margin: 50px 0px 50px 0px;
-}
-p{
-    display: none;
-}
-.countdown{
-    color: wheat;
-    position: relative;
-    top: 40px;
-    width: 80%;
-    font-size: 3rem;
-    display: flex;
-    flex-direction: column;
-}
-.countdownbox{
-    border: solid;
-    display: none;
-}
-.box{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2rem;
-    height: 500px;
-    width: 450px;
-    background-image: url(../../misc/wteeu_white_tee_front_1.png);
-
-}
-
-.buybox{
-    font-size: 2rem;
-    position: absolute;
-    bottom: -10px;
-    color: white;
-    background-color: red;
-
-}
-.headhead{
-    font-size: 1.5rem;
-}
-header{
-    height: 200px;
-}
-nav{
-    z-index: 1000;
-    position: absolute;
-    top: 180px;
-    height: 150px;
-    width: 250px;
-    display: flex;
-    align-items: center; 
-    flex-direction: column;
-    font-size: 1rem;
-}
-.knapp2{
-    top: 300px;
-}
-.knapp2 i.material-icons{
-    font-size: 5rem;
-    
-}
-.menu22{
-    top: 450px;
-    font-size: 2rem;
-    margin-left: 0;
-    height: 200px;
-}
+    .amenu{
+        height: 140px;
+    }
+    .nav_link{
+        height: 70px;
+    }
+    .knapp{
+        width: 400px;
+        height: 70px;
+    }
+    .otext{
+        display: block;
+        border-bottom: solid;
+    }
+    #demo{
+        display: flex;  
+        justify-content: center;
+        align-content: center;
+    }
+    .fullcountdownbox{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border-bottom: solid;
+        margin: 50px 0px 50px 0px;
+    }
+    p{
+        display: none;
+    }
+    .countdown{
+        color: wheat;
+        position: relative;
+        top: 100px;
+        font-size: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .countdownbox{
+        border: solid;
+        display: none;
+    }
+    .merch{
+        position: relative;
+        top: 50px;
+    }
+    .box{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2rem;
+        height: 500px;
+        width: 450px;
+        background-image: url(../../misc/wteeu_white_tee_front_1.png);
+        
+    }
+    .buybox{
+        font-size: 2rem;
+        position: absolute;
+        bottom: -10px;
+        color: white;
+        background-color: red;
+        
+    }
+    .headhead{
+        font-size: 1.5rem;
+    }
+    header{
+        height: 200px;
+    }
+    nav{
+        z-index: 1000;
+        position: absolute;
+        top: 180px;
+        height: 220px;
+        width: 400px;
+        display: flex;
+        align-items: center; 
+        flex-direction: column;
+        font-size: 2rem;
+    }
+    .knapp2{
+        top: 300px;
+    }
+    .knapp2 i.material-icons{
+        font-size: 5rem;
+    }
+    .knapp i.material-icons{
+        font-size: 3rem;
+    }
+    .menu22{
+        top: 450px;
+        font-size: 2rem;
+        margin-left: 0;
+        height: 200px;
+    }
+    .knapp:hover{
+        color: white;
+        background-color: black;
+    }
+    .nav_link:hover{
+        color:white;
+        background-color: black;
+    }
 
 }
